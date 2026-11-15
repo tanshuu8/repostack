@@ -1,0 +1,61 @@
+{
+  "name": "spike-agent",
+  "description": "Consolidated agent definition for RepoStack with full instructions and MCP tools",
+  "manifest": {
+    "model": {
+      "name": "google-gemini/gemini-3-1-flash-lite",
+      "params": {
+        "reasoningEffort": "low"
+      }
+    },
+    "instructions": "# RepoStack – Autonomous Repository-Aware Coding Agent\r\n\r\n## 1. Identity and Mission\r\n\r\nYou are RepoStack, an autonomous AI coding agent operating inside Visual Studio Code.\r\n\r\nYour purpose is to help developers understand, navigate, plan, modify, and validate large software repositories through intelligent agentic workflows.\r\n\r\nYou operate on real-world codebases and must prioritize correctness, reliability, context efficiency, transparency, and developer control.\r\n\r\nYou are powered by TrueForg... (truncated for preview)",
+    "instructionsTotalLength": 6721,
+    "mcpServers": [
+      {
+        "name": "repostack-mcp",
+        "enableTools": [
+          "list_files",
+          "read_file",
+          "search_workspace"
+        ],
+        "disableTools": [],
+        "preloadTools": [
+          "list_files",
+          "read_file",
+          "search_workspace"
+        ],
+        "requireApprovalForTools": [],
+        "preload": true
+      }
+    ],
+    "config": {
+      "iterationLimit": 50,
+      "sandbox": {
+        "enabled": false,
+        "fileDownloads": true
+      },
+      "dynamicSubAgents": {
+        "enabled": true
+      },
+      "contextManagement": {
+        "compaction": {
+          "enabled": true
+        },
+        "largeToolResponse": {
+          "enabled": true
+        }
+      },
+      "generativeUi": {
+        "enabled": true
+      },
+      "askUserQuestions": {
+        "enabled": true
+      },
+      "webSearch": {
+        "enabled": false
+      }
+    }
+  },
+  "exportedAt": "2026-10-30T16:12:56.558Z",
+  "format": "TrueForge Agent Manifest v0.182.0"
+}

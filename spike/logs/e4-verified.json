@@ -1,0 +1,25 @@
+{
+  "allowSuccess": true,
+  "denySuccess": true,
+  "cancelDuringApprovalSuccess": true,
+  "approvalEventA": {
+    "type": "tool.approval_required",
+    "id": "01m66s9f6wdc58297jhmrvya2q",
+    "createdAt": "2026-10-30T16:11:37.564Z",
+    "threadId": "main",
+    "toolCalls": [
+      {
+        "id": "call_849323",
+        "sourceEventId": "01m66s9dpf8qw8r7bx6rbxgjbe"
+      }
+    ]
+  },
+  "toolCallsA": [
+    {
+      "id": "call_849323",
+      "sourceEventId": "01m66s9dpf8qw8r7bx6rbxgjbe"
+    }
+  ],
+  "eventsACount": 39,
+  "eventsCCount": 33
+}

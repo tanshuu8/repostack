@@ -1,0 +1,116 @@
+{
+  "sessionId": "01m66s11tywg7w4th87n3ek2hy",
+  "totalDuration": 10543,
+  "firstEventTime": 56,
+  "firstDeltaTime": 10204,
+  "eventTypes": [
+    "turn.created",
+    "model.message",
+    "model.message.delta",
+    "turn.done"
+  ],
+  "deltaCount": 7,
+  "deltaTimings": [
+    {
+      "timeMs": 10204,
+      "intervalMs": 0,
+      "contentLength": 103,
+      "hasReasoning": false,
+      "finishReason": null
+    },
+    {
+      "timeMs": 10207,
+      "intervalMs": 3,
+      "contentLength": 155,
+      "hasReasoning": false,
+      "finishReason": null
+    },
+    {
+      "timeMs": 10250,
+      "intervalMs": 43,
+      "contentLength": 135,
+      "hasReasoning": false,
+      "finishReason": null
+    },
+    {
+      "timeMs": 10316,
+      "intervalMs": 66,
+      "contentLength": 121,
+      "hasReasoning": false,
+      "finishReason": null
+    },
+    {
+      "timeMs": 10420,
+      "intervalMs": 104,
+      "contentLength": 134,
+      "hasReasoning": false,
+      "finishReason": null
+    },
+    {
+      "timeMs": 10488,
+      "intervalMs": 68,
+      "contentLength": 68,
+      "hasReasoning": false,
+      "finishReason": null
+    },
+    {
+      "timeMs": 10521,
+      "intervalMs": 33,
+      "contentLength": 0,
+      "hasReasoning": false,
+      "finishReason": "stop"
+    }
+  ],
+  "events": [
+    {
+      "timeFromStartMs": 56,
+      "type": "turn.created",
+      "summary": "{\"type\":\"turn.created\",\"id\":\"01m66s11w97fxshvhpq7a6660s\",\"turnId\":\"01m66s11vqd0g586ytgayx7cq0\",\"previousTurnId\":null,\"input\":[{\"type\":\"user.message\",\"content\":\"Write a 5-step checklist for Python code review. Keep each step to one concise sentence.\"}],\"state\":{\"status\":\"running\"},\"createdAt\":\"2026-1"
+    },
+    {
+      "timeFromStartMs": 56,
+      "type": "model.message",
+      "summary": "{\"type\":\"model.message\",\"threadId\":\"main\",\"createdAt\":\"2026-10-30T16:07:01.775Z\",\"id\":\"01m66s11wef4efqfn5drsj68q9\",\"model\":{\"name\":\"google-gemini/gemini-3-1-flash-lite\",\"params\":{\"maxTokens\":65536,\"reasoningEffort\":\"low\"}}}"
+    },
+    {
+      "timeFromStartMs": 10204,
+      "type": "model.message.delta",
+      "summary": "{\"content\":\"Here is a concise 5-step checklist for Python code review:\\n\\n1.  **Verify PEP 8 compliance:** Ensure the\",\"type\":\"model.message.delta\",\"id\":\"01m66s11wef4efqfn5drsj68q9\",\"threadId\":\"main\",\"createdAt\":\"2026-10-30T16:07:11.940Z\"}"
+    },
+    {
+      "timeFromStartMs": 10207,
+      "type": "model.message.delta",
+      "summary": "{\"content\":\" code follows standard Python style guidelines for naming, spacing, and formatting.\\n2.  **Validate logic and correctness:** Confirm the code implements the\",\"type\":\"model.message.delta\",\"id\":\"01m66s11wef4efqfn5drsj68q9\",\"threadId\":\"main\"}"
+    },
+    {
+      "timeFromStartMs": 10250,
+      "type": "model.message.delta",
+      "summary": "{\"content\":\" intended requirements accurately and handles edge cases appropriately.\\n3.  **Check for code smells:** Identify and refactor redundant,\",\"type\":\"model.message.delta\",\"id\":\"01m66s11wef4efqfn5drsj68q9\",\"threadId\":\"main\"}"
+    },
+    {
+      "timeFromStartMs": 10316,
+      "type": "model.message.delta",
+      "summary": "{\"content\":\" overly complex, or inefficient code patterns to improve maintainability.\\n4.  **Confirm test coverage:** Ensure that unit\",\"type\":\"model.message.delta\",\"id\":\"01m66s11wef4efqfn5drsj68q9\",\"threadId\":\"main\"}"
+    },
+    {
+      "timeFromStartMs": 10420,
+      "type": "model.message.delta",
+      "summary": "{\"content\":\" tests cover the new logic, including error handling and boundary conditions.\\n5.  **Review documentation:** Verify that docstrings and\",\"type\":\"model.message.delta\",\"id\":\"01m66s11wef4efqfn5drsj68q9\",\"threadId\":\"main\"}"
+    },
+    {
+      "timeFromStartMs": 10488,
+      "type": "model.message.delta",
+      "summary": "{\"content\":\" comments clearly explain the purpose and functionality of the code.\",\"type\":\"model.message.delta\",\"id\":\"01m66s11wef4efqfn5drsj68q9\",\"threadId\":\"main\"}"
+    },
+    {
+      "timeFromStartMs": 10521,
+      "type": "model.message.delta",
+      "summary": "{\"type\":\"model.message.delta\",\"id\":\"01m66s11wef4efqfn5drsj68q9\",\"threadId\":\"main\",\"finishReason\":\"stop\",\"usage\":{\"inputTokens\":1208,\"outputTokens\":244,\"cacheReadTokens\":0,\"inputTokensBreakdown\":{\"harness\":1302,\"skills\":0,\"instructions\":24,\"toolDefinitions\":0,\"messages\":0}}}"
+    },
+    {
+      "timeFromStartMs": 10540,
+      "type": "turn.done",
+      "summary": "{\"type\":\"turn.done\",\"id\":\"01m66s1c4crk9p2rj1n2t4ysfw\",\"createdAt\":\"2026-10-30T16:07:12.268Z\",\"state\":{\"status\":\"done\",\"output\":{\"content\":\"Here is a concise 5-step checklist for Python code review:\\n\\n1.  **Verify PEP 8 compliance:** Ensure the code follows standard Python style guidelines for namin"
+    }
+  ]
+}

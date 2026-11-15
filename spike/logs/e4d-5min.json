@@ -1,0 +1,33 @@
+{
+  "sessionId": "01m66saq9n0v8448chcdbhwc33",
+  "currentTurnId": "01m66saqb7axekcz9gdv85keqj",
+  "totalHeldSeconds": 300,
+  "resolveSuccess": true,
+  "resolveError": null,
+  "finalTurnState": {
+    "status": "done",
+    "output": null,
+    "requiredActions": [
+      {
+        "type": "tool.approval_required",
+        "id": "01m66sbdmfcyvwznr05ja050f2",
+        "createdAt": "2026-10-30T16:12:41.487Z",
+        "threadId": "main",
+        "toolCalls": [
+          {
+            "id": "call_969675",
+            "sourceEventId": "01m66sb8d4j9y2378ff58ga6q0"
+          }
+        ]
+      }
+    ],
+    "completedAt": "2026-10-30T16:12:41.491Z",
+    "metrics": {
+      "totalInputTokens": 17822,
+      "totalOutputTokens": 874,
+      "totalTokens": 18696,
+      "totalCacheReadTokens": 0,
+      "totalReasoningTokens": 644
+    }
+  }
+}

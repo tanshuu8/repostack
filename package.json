@@ -1,0 +1,13 @@
+{
+  "name": "repostack",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "npm --prefix mcp-server test",
+    "typecheck": "npm --prefix mcp-server run typecheck",
+    "build": "npm --prefix mcp-server run build",
+    "start": "npm --prefix mcp-server start",
+    "dev": "npm --prefix mcp-server run dev"
+  }
+}
+

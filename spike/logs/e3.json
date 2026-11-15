@@ -1,0 +1,39 @@
+{
+  "sessionId": "01m66s23be28c523499r1xwxtf",
+  "cancelled": true,
+  "cancelCallTimeFromStart": 1509,
+  "cancellationLagMs": 61,
+  "turnStateAfterCancel": {
+    "status": "cancelled",
+    "reason": "client-cancelled",
+    "completedAt": "2026-10-30T16:07:37.644Z",
+    "metrics": {
+      "totalInputTokens": 0,
+      "totalOutputTokens": 0,
+      "totalTokens": 0
+    }
+  },
+  "sessionStatusAfterCancel": "cancelled",
+  "sessionReusability": {
+    "success": true,
+    "error": null
+  },
+  "events": [
+    {
+      "timeMs": 64,
+      "type": "turn.created"
+    },
+    {
+      "timeMs": 66,
+      "type": "model.message"
+    },
+    {
+      "timeMs": 1509,
+      "type": "model.message.delta"
+    },
+    {
+      "timeMs": 1570,
+      "type": "turn.done"
+    }
+  ]
+}
