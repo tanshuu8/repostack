@@ -1,3 +1,6 @@
+/**
+ * Spike MCP Server: Lightweight mock server for tool approval verification.
+ */
 // spike/mcp-spike/server.mjs
 import { createRequire } from 'node:module';
 const req = createRequire('C:/Users/user/OneDrive/Desktop/repostack/mcp-server/package.json');
