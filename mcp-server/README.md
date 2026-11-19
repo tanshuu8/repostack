@@ -21,7 +21,7 @@ The RepoStack MCP Server provides AI coding agents with structured, secure acces
 
 ## Key Capabilities & Features
 
-- 🔍 **`list_files`** — Recursively browse the repository tree with configurable depth
+- 🔍 **`list_files`** — Recursively browse workspace tree with configurable depth and path filtering
 - 📖 **`read_file`** — Read any UTF-8 source or config file (up to 1 MB)
 - 🔎 **`search_workspace`** — Full-text search across source files with glob file filtering
 - 🛡️ **Security-first** — Path traversal prevention, symlink escape detection, sensitive file blocking
