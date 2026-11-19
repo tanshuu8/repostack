@@ -1,4 +1,7 @@
 /**
+ * Experiment E7: Model Failover & Secondary Provider Error Handling.
+ */
+/**
  * E7 — Model Failover
  * Tests what happens when we use invalid model config, unreachable endpoint, etc.
  * Determines if native model fallback exists in TrueForge v0.182.0
