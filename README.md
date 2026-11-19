@@ -212,7 +212,7 @@ npm start
 export REPOSTACK_WORKSPACE="/path/to/your/target/project"
 npm start
 ```
-The server will start listening at `http://127.0.0.1:3001` with health checks available at `http://127.0.0.1:3001/health`.
+The server will start listening at `http://127.0.0.1:3001` with standard health checks available at `http://127.0.0.1:3001/health`.
 
 ---
 
