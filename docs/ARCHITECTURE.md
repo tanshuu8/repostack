@@ -198,3 +198,5 @@ Where $M_{\text{context}}$ is the active model's context window (e.g. 1,048,576 
    - The conversation history and current turn input are transferred to the fallback session.
 3. **Graceful Failure Invariant (Task C)**:
    - If fallback is unconfigured or fails, the extension catches the SDK error, halts generation, renders a clear failure explanation in the webview, and guarantees that the workspace is 100% clean (`git status` confirms 0 files modified).
+
+<!-- End of RepoStack System Architecture Specification -->
