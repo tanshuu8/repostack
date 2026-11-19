@@ -1,4 +1,7 @@
 /**
+ * Experiment E6: Context Compaction & Large Tool Response Handling.
+ */
+/**
  * E6 — Context Engineering Experiments
  * Tests: compaction events, large tool responses, subagent delegation
  */
