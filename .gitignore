@@ -33,6 +33,6 @@ ehthumbs.db
 .vscode-test/
 .vscode/extensions/
 
-# Coverage
+# Test coverage and reports
 coverage/
 *.lcov
