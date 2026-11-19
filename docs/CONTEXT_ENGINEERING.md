@@ -1,5 +1,7 @@
 # RepoStack Intelligent Context Assembly Engine
 
+> Deterministic token budgeting and repository context allocation.
+
 > **Engineering Principle**: Repository understanding is not brute-force concatenation. It is selective, explainable, budget-aware context retrieval that prioritizes high-value code symbols over unnecessary file dumps.
 
 ---
