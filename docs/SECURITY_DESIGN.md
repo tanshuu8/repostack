@@ -1,5 +1,7 @@
 # RepoStack Security & Safety Design
 
+<!-- Security Policies & Containment Guarantees -->
+
 > **Security Posture**: Zero silent file writes, strict workspace boundary enforcement, rigidly allowlisted command profiles, and defense-in-depth across the VS Code Extension, MCP Server, and TrueForge Agent Runtime.
 
 ---
