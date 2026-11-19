@@ -1,3 +1,6 @@
+/**
+ * Experiment E1: Localhost & IPv6 Loopback Connectivity Verification.
+ */
 // spike/experiments/e1/test-connectivity.mjs
 import * as dns from 'node:dns/promises';
 import { TrueForge } from 'file:///C:/Users/user/AppData/Local/npm-cache/_npx/18da9bb0c07c9a14/node_modules/@truefoundry/trueforge-sdk/dist/esm/index.mjs';
