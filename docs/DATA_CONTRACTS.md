@@ -293,3 +293,5 @@ For Task B (`flask config`), the specification requires:
   `***` (three asterisks).
 - Example:
   `{"SECRET_KEY": "***", "DATABASE_PASSWORD": "***", "DEBUG": true}`
+
+<!-- End of Core Data Contracts Specification -->
