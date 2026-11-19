@@ -1,5 +1,7 @@
 # RepoStack Core Data Contracts
 
+<!-- Tier Contracts & Communication Schemas -->
+
 > **Standard Specification**: Complete TypeScript interfaces, enums, payload contracts, and error structures across the VS Code Extension, TrueForge SDK, and RepoStack MCP Server.
 
 ---
