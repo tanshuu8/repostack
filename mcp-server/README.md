@@ -47,7 +47,7 @@ The server requires one environment variable:
 | Variable | Required | Description |
 |---|---|---|
 | `REPOSTACK_WORKSPACE` | ✅ Yes | Absolute path to the repository directory to expose |
-| `PORT` | No | HTTP port (default: `3001`) |
+| `PORT` | No | Server HTTP listening port (default: `3001`) |
 
 ### Setting the workspace
 
