@@ -1,3 +1,6 @@
+/**
+ * @fileoverview Integration test suite covering 47 security and protocol cases.
+ */
 // tests/server.test.ts
 // Run with: npm test (or: npx tsx tests/server.test.ts)
 
