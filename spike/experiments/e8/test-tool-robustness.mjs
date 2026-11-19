@@ -1,4 +1,7 @@
 /**
+ * Experiment E8: Tool Chaining Robustness Across Reasoning Configurations.
+ */
+/**
  * E8 — Tool Robustness Across Models / ReasoningEffort
  * Tests: multi-step tool chains, different reasoning levels, error recovery
  */
