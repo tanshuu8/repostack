@@ -1,3 +1,6 @@
+/**
+ * @fileoverview Sensitive file filtering and binary file identification.
+ */
 import * as path from 'node:path';
 
 /** Directories that are always excluded from listing and search */
