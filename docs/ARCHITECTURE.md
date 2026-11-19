@@ -12,7 +12,7 @@ The system is split into three decoupled tiers:
 
 1. **VS Code Extension Tier (`vscode-extension`)**: The presentation, editor decoration, diff review, and context extraction engine. It owns the developer interaction loop, inline-edit UI, per-hunk diff view, undo stack, and consumes SSE events from TrueForge.
 2. **TrueForge Agent Runtime Tier (`[::1]:8790`)**: The self-hosted agent harness (`@truefoundry/trueforge` v0.182.0) that manages LLM interactions, sessions, turns, tool-calling loops, context compaction, and subagent orchestration. TrueForge controls model reasoning and decides tool invocations.
-3. **RepoStack MCP Server Tier (Port 3001)**: The repository intelligence and staging boundary (`@repostack/mcp-server`). Exposes safe read-only repository inspection tools (`list_files`, `read_file`, `read_file_range`, `search_workspace`), staged editing (`propose_file_edit`, `get_proposal`), and allowlisted validation (`execute_validation`). It strictly enforces workspace path isolation, symlink escaping checks, sensitive file filtering, and guarantees that no file is modified silently on disk without human acceptance.
+3. **RepoStack MCP Server Tier (`127.0.0.1:3001`)**: The repository intelligence and staging boundary (`@repostack/mcp-server`). Exposes safe read-only repository inspection tools (`list_files`, `read_file`, `read_file_range`, `search_workspace`), staged editing (`propose_file_edit`, `get_proposal`), and allowlisted validation (`execute_validation`). It strictly enforces workspace path isolation, symlink escaping checks, sensitive file filtering, and guarantees that no file is modified silently on disk without human acceptance.
 
 ---
 
