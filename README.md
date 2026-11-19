@@ -8,7 +8,7 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.3+-blue.svg)](https://www.typescriptlang.org/)
 [![MCP Spec](https://img.shields.io/badge/MCP-Compliant-orange.svg)](https://modelcontextprotocol.io/)
 [![TrueForge](https://img.shields.io/badge/Agent%20Runtime-TrueForge%20v0.182-purple.svg)](https://github.com/truefoundry/trueforge)
-[![Tests Passing](https://img.shields.io/badge/Tests-47%20passed%20%7C%200%20failed-brightgreen.svg)]()
+[![Tests Passing](https://img.shields.io/badge/Tests-47%20passed%20%7C%200%20failed-brightgreen.svg)](mcp-server/tests/server.test.ts)
 
 ---
 
