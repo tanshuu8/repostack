@@ -222,7 +222,7 @@ During technical spike testing (Prompt 02.5), we empirically validated critical 
 
 | Capability | Status | Spike Finding |
 |---|---|---|
-| **IPv6 Binding** | ✅ **VERIFIED** | TrueForge listens exclusively on `::1` (IPv6 loopback). Connecting via `127.0.0.1` fails; clients must target `http://localhost:8790` or `http://[::1]:8790`. |
+| **IPv6 Binding** | ✅ **VERIFIED** | TrueForge listens exclusively on `::1` (IPv6 loopback). Connecting via `127.0.0.1` fails on Windows; clients must target `http://localhost:8790` or IPv6 `http://[::1]:8790`. |
 | **Token Streaming** | ✅ **VERIFIED** | TrueForge delivers incremental `model.message.delta` chunks (avg interval ~52ms). Delta content is accessed via `event.content`. |
 | **Session Cancellation** | ✅ **VERIFIED** | `client.sessions.cancel()` cleanly transitions active turns to `status: "cancelled"` within ~60ms; sessions remain reusable. |
 | **Tool Approval Gating** | ✅ **VERIFIED** | `tool.approval_required` halts model execution cleanly. Resolutions (`allow` / `deny`) succeed via `createTurnEvent`. Preceding arguments are reconstructed from `model.message.delta`. |
