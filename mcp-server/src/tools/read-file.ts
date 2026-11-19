@@ -1,3 +1,6 @@
+/**
+ * @fileoverview Implementation of read_file MCP tool with size and range validation.
+ */
 import * as fs from 'node:fs';
 import * as path from 'node:path';
 import { z } from 'zod';
