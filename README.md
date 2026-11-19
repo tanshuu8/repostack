@@ -164,7 +164,7 @@ repostack/
 │   │   └── e9/test-workspace.mjs        # Dynamic workspace pointing strategies
 │   ├── logs/                            # Sanitized verification logs and telemetry
 │   ├── mcp-spike/                       # Isolated lightweight spike MCP server
-│   ├── BASELINE.md                      # Hardware, OS & TrueForge environment baseline
+│   ├── BASELINE.md                      # Host environment, hardware & TrueForge runtime baseline
 │   └── agent-definition.json            # Verified TrueForge agent manifest
 │
 ├── package.json                         # Root workspace scripts
