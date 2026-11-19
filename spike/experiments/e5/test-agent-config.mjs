@@ -1,3 +1,6 @@
+/**
+ * Experiment E5: Consolidated Agent Instructions & MCP Connector Verification.
+ */
 // spike/experiments/e5/test-agent-config.mjs
 import { TrueForge } from 'file:///C:/Users/user/AppData/Local/npm-cache/_npx/18da9bb0c07c9a14/node_modules/@truefoundry/trueforge-sdk/dist/esm/index.mjs';
 import * as fs from 'node:fs';
