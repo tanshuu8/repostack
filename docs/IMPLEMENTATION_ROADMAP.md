@@ -1,5 +1,7 @@
 # RepoStack 20-Prompt Implementation Roadmap
 
+<!-- Phased Engineering Milestones -->
+
 > **Engineering Plan**: Chronological, dependency-verified roadmap from initial audit through final Forge-a-thon competition submission.
 
 ---
