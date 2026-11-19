@@ -1,3 +1,6 @@
+/**
+ * Experiment E4: Tool Approval Gating & Turn Event Resolution Verification.
+ */
 // spike/experiments/e4/run-approval-spike.mjs
 import { TrueForge } from 'file:///C:/Users/user/AppData/Local/npm-cache/_npx/18da9bb0c07c9a14/node_modules/@truefoundry/trueforge-sdk/dist/esm/index.mjs';
 import * as fs from 'node:fs';
