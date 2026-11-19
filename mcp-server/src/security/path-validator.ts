@@ -1,3 +1,6 @@
+/**
+ * @fileoverview Strict workspace boundary validation and symlink protection.
+ */
 import * as path from 'node:path';
 import * as fs from 'node:fs';
 
