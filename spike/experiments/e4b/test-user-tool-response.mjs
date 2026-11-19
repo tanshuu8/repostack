@@ -1,4 +1,7 @@
 /**
+ * Experiment E4B: Custom Tool Response Injection via user.tool_response.
+ */
+/**
  * E4B — Custom Result via user.tool_response
  * Critical test: can extension inject custom tool results into TrueForge?
  * This determines whether the extension can bypass the MCP server for proposal staging.
