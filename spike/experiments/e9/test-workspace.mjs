@@ -1,4 +1,7 @@
 /**
+ * Experiment E9: Multi-Workspace Pointing Strategies & Isolation Analysis.
+ */
+/**
  * E9 — Workspace Pointing Strategies
  * Tests: per-workspace MCP server approach vs dynamic tool argument approach
  * Evaluates security and feasibility of each on Windows
