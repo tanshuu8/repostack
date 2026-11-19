@@ -1,3 +1,6 @@
+/**
+ * @fileoverview Implementation of search_workspace MCP tool with glob filtering.
+ */
 import * as fs from 'node:fs';
 import * as path from 'node:path';
 import { z } from 'zod';
