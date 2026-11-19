@@ -137,3 +137,5 @@ When a user clicks **Cancel** in VS Code while a proposal has already been stage
 3. **Log Sanitization**:
    - `sanitizePath`: Strips local host directories (`C:\Users\user\...`) from errors returned to model/agents.
    - Any sensitive keyword matching `/(secret|password|token|apikey|private_key)/i` in error traces is masked as `***REDACTED***`.
+
+<!-- End of Security Design & Sandbox Boundary Specification -->
