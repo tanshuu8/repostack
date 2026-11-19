@@ -26,7 +26,7 @@ The RepoStack MCP Server provides AI coding agents with structured, secure acces
 - 🔎 **`search_workspace`** — Full-text search across source files with glob file filtering
 - 🛡️ **Security-first** — Path traversal prevention, symlink escape detection, sensitive file blocking
 - 🚫 **Smart exclusions** — Automatically skips `node_modules`, `.git`, `dist`, `build`, and binary files
-- ⚡ **Stateless HTTP** — Each request is independent; no session state to manage
+- ⚡ **Stateless HTTP** — Each request is independent; compliant with JSON-RPC 2.0 and MCP specs
 
 ## Prerequisites
 
