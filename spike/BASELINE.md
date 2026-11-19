@@ -57,3 +57,5 @@
 - **Sandbox**: TrueForge `LocalSandboxProvider` requires Linux/macOS container primitives; `sandbox: { enabled: false }` is enforced on Windows.
 - **Port Binding**: By default, Node.js HTTP server without an explicit host string binds to `::1` or `0.0.0.0` depending on Windows dual-stack socket options.
 
+
+<!-- Baseline environment verified for TrueForge v0.182.0 -->
