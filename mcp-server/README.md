@@ -296,3 +296,5 @@ Or for the HTTP transport (when the server is already running):
 
 ISC
 
+
+<!-- RepoStack MCP Server Package Documentation -->
