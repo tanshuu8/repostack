@@ -1,5 +1,7 @@
 # RepoStack Architecture Decision Records (ADRs)
 
+<!-- Technical Rationale and Architectural Consequences -->
+
 ---
 
 ## ADR-001: VS Code Extension Host Architecture
