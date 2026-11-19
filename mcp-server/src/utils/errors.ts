@@ -1,3 +1,6 @@
+/**
+ * @fileoverview Error codes and normalized McpError class for JSON-RPC.
+ */
 export class WorkspaceError extends Error {
   constructor(message: string) {
     super(message);
