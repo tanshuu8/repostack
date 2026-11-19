@@ -1,3 +1,6 @@
+/**
+ * Experiment E2: TrueForge SSE Streaming & Token Delivery Verification.
+ */
 // spike/experiments/e2/test-streaming.mjs
 import { TrueForge } from 'file:///C:/Users/user/AppData/Local/npm-cache/_npx/18da9bb0c07c9a14/node_modules/@truefoundry/trueforge-sdk/dist/esm/index.mjs';
 
